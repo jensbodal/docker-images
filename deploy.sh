@@ -1,4 +1,4 @@
-version="18.01"
+version="17.09"
 hub_user="jensbodal"
 image="dind-docker-compose-aws-terraform"
 
