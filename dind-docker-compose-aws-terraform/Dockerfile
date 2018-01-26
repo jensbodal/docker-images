@@ -1,4 +1,4 @@
-FROM docker:18.01
+FROM docker:17.09
 MAINTAINER Jens Bodal <jensbodal@gmail.com>
 
 RUN apk add --update --no-cache py-pip jq openssl && \
