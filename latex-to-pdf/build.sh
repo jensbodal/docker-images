@@ -1,5 +1,5 @@
-version="0.1.0"
+version="$(cat VERSION)"
 hub_user="jensbodal"
-image="latex-to-pdf"
+image="$(basename $PWD)"
 
 docker build "./" -t "$hub_user/$image" -t "$hub_user/$image:$version" -t "$hub_user/$image:latest"
